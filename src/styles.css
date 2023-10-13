@@ -1,0 +1,20 @@
+.file-browser {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.file-tree {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.file-preview {
+  flex: 2;
+  padding: 20px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  background-color: #f7f7f7;
+}
